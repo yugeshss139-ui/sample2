@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: 'Baloo 2', sans-serif;
+  background: #fff;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ff5f73;
+  color: white;
+  padding: 50px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.hero-text p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.hero-img img {
+  width: 350px;
+}
+
+/* Books Section */
+.book-section {
+  padding: 40px 60px;
+}
+
+.book-section h2 {
+  margin-bottom: 25px;
+  font-size: 26px;
+}
+
+.books {
+  display: flex;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+
+.book {
+  width: 150px;
+}
+
+.book img {
+  width: 150px;
+  height: 210px;
+  border-radius: 5px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.author {
+  font-size: 14px;
+  color: gray;
+}
+
+.price {
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+button {
+  background: #4c77ff;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  body{
+    flex-direction: column;
+    text-align: center;
+    display:flex;
+    align-items: center;
+  }
+
+
+  .hero-img img {
+    width: 250px;
+    margin-top: 20px;
+  }
+
+  .books {
+    justify-content: center;
+  }
+
+}
+FEWD Virtual Session - SJU
